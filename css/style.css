@@ -1,0 +1,85 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Arimo', sans-serif; */
+
+/* main headers */
+
+h1 {
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 1.5em;
+	padding-bottom: .25em;
+	background-color: #BDBDBD;
+}
+
+h2 {
+	font-family: 'Arimo', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.1em;
+	padding: 1em;
+}
+
+h3 {
+	position: relative;
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 1em;
+}
+
+h4 {
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	padding: .25em;
+	width: 50%;
+	margin: 0 auto;
+}
+
+h4 b {
+	font-weight: 700;
+}
+
+body {
+	background-color: #CE7629;
+}
+
+/* input box */
+
+.main {
+	text-align: center;
+	background-color: white;
+}
+
+#quizBox {
+	background: url("http://i.imgur.com/ekwIZJg.png") center center fixed; 
+	background-size: cover;
+}
+
+ul {
+	margin: 0 auto;
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	width: 25%;
+	text-align: left;
+	padding: 1em;
+	display: block;
+	line-height: 150%;
+}
+
+.highlight {
+    background: yellow;
+  }
+
+.coffecup {
+	float: right;
+	position: relative;
+	top: -100px;
+	left: 0px;
+}
+
+li {
+	display: block;
+}
