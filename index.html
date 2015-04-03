@@ -9,7 +9,7 @@
   <link href='http://fonts.googleapis.com/css?family=Arimo|Droid+Serif&subset=cyrillic-ext,latin' rel='stylesheet' type='text/css'>
   <link href="css/reset.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <script src="js/coffee_quiz.js"></script>
+
   </head>
   <body>
     <h1>Coffee Quiz!</h1>
@@ -17,10 +17,14 @@
       <div id="quizBox">
         <h4 id="quizHead"></h4>
         <div id="questionTop"></div>
-        <div id="answer1"></div>
+        <div id="answers"></div>
+        <div id="result"></div>
+        <input type='button' id="chooseGuess" value="Guess!">
+        <input type='button' id="chooseNext" value="Next Question">
           <img class="coffecup" width="82" height="82" viewbox="0 0 102 102" src="./img/cup_solo_question.svg"> 
         </ul> 
         <h3 class="answerIsCorrect"> That is correct! </h3> 
-      </div> 
+      </div>
+      <script src="js/coffee_quiz.js"></script> 
   </body>
   </html>	
