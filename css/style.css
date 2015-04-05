@@ -44,6 +44,8 @@ h4 b {
 
 body {
 	background-color: #CE7629;
+	margin: 100px 450px;
+	opacity: 0.75;
 }
 
 /* input box */
@@ -53,8 +55,8 @@ body {
 	background-color: white;
 }
 
-#quizBox {
-	background: url("http://i.imgur.com/ekwIZJg.png") center center fixed; 
+html {
+	background: url("http://i.imgur.com/ekwIZJg.png") no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -69,15 +71,33 @@ ul {
 	line-height: 150%;
 }
 
-.highlight {
-    background: yellow;
-  }
+p {
+	line-height: 200%;
+	text-align: left;
+}
 
-.coffecup {
-	float: right;
+
+/* Coffee Cup Score */
+
+.coffeeCup {
 	position: relative;
-	top: -100px;
-	left: 0px;
+	width: 100%;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.coffeeCup {
+	background-repeat: no-repeat;
+}
+
+
+h6 { 
+	color: white;
+	position: absolute; 
+	top: 35px; 
+	left: 0px; 
+	width: 100%; 
 }
 
 li {
