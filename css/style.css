@@ -1,0 +1,165 @@
+/* font-family: 'Lobster', cursive;
+font-family: 'Arimo', sans-serif; */
+
+/* main headers */
+
+h1 {
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	font-size: 3em;
+	padding-top: 1.5em;
+	padding-bottom: .25em;
+	background-color: #BDBDBD;
+}
+
+h2 {
+	font-family: 'Arimo', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 1.1em;
+	padding: 1em;
+}
+
+h3 {
+	position: relative;
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	font-size: 1.2em;
+	padding: 1em;
+}
+
+h4 {
+	font-family: 'Arimo', sans-serif;
+	text-align: center;
+	font-size: 1.25em;
+	line-height: 1.5em;
+	padding: .25em;
+	width: 50%;
+	margin: 0 auto;
+}
+
+h4 b {
+	font-weight: 700;
+}
+
+body {
+	background-color: #CE7629;
+	margin: 100px 450px;
+	opacity: 0.75;
+}
+
+/* input box */
+
+.main {
+	text-align: center;
+	background-color: white;
+}
+
+html {
+	background: url("http://i.imgur.com/ekwIZJg.png") no-repeat center center fixed;
+	background-size: cover;
+}
+
+ul {
+	margin: 0 auto;
+	font-family: 'Arimo', sans-serif;
+	font-size: 1em;
+	width: 25%;
+	text-align: left;
+	padding: 1em;
+	display: block;
+	line-height: 150%;
+}
+
+p {
+	line-height: 200%;
+	text-align: left;
+}
+
+
+/* Coffee Cup Score */
+
+.coffeeCup {
+	position: relative;
+	width: 100%;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+.coffeeCup {
+	background-repeat: no-repeat;
+}
+
+
+h6 { 
+	color: white;
+	position: absolute; 
+	top: 35px; 
+	left: 0px; 
+	width: 100%; 
+}
+
+li {
+	display: block;
+}
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (max-width : 1224px) {
+    body {
+        background-color: #CE7629;
+        margin: 50px 400px;
+        opacity: 0.85;
+    }
+    
+    h1 {
+        font-size: 1.75em;
+        padding-top: 1em;
+    }
+    
+    h2 {
+        font-size: 0.95em;
+    }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1100px) {
+    body{
+        background-color: ##CE7629;
+        margin: 25px 250px;
+        opacity: 1.0;
+    }
+    
+    h1 {
+        font-size: 1.25em;
+        padding-top: 0.5em;
+    }
+    
+    h2 {
+        font-size: 0.7em;
+    }
+    
+    
+}
+
+@media only screen and (max-device-width: 1001px){
+    body{
+        margin: 10px 5px;
+    }
+    
+    h1,h2{
+        padding: 0.25em;
+        text-align: left;
+        display:block;
+    }
+    .coffeeCup {
+        position:relative;
+        margin: initial;
+    }
+    h6 { 
+	   color: white;
+	   position: absolute;
+       padding-left: 45px; 
+    }
+}
