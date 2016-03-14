@@ -124,9 +124,9 @@ li {
 }
 
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 1000px) and (max-device-width: 1100px) {
+@media only screen and (min-device-width: 751px) and (max-device-width: 1100px) {
     body{
-        background-color: ##CE7629;
+        background-color: #CE7629;
         margin: 25px 250px;
         opacity: 1.0;
     }
@@ -143,7 +143,7 @@ li {
     
 }
 
-@media only screen and (max-device-width: 1001px){
+@media only screen and (min-device-width: 240px) and (max-device-width: 750px){
     body{
         margin: 10px 5px;
     }
