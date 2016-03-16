@@ -106,7 +106,7 @@ li {
 
 /* Desktops and laptops ----------- */
 
-@media only screen and (max-width : 1224px) {
+@media only screen and (min-width: 1101px) and (max-width : 1224px) {
     body {
         background-color: #CE7629;
         margin: 50px 400px;
